@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    font-family: 'inter';
+
+}
+
+/* Cabecalho */
+
+#secao_cabecalho{
+    background-color: #303030;
+    color: #FFFFFF;
+    height: 200px;
+    align-items: center;
+    padding-top: 80px;
+    padding-left: 50px;
+
+}
+
+#titulo_cabecalho{
+    font-size: 45px;
+}
+
+/* Incormacional */
+
+#secao_informacional{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.focalizacao_informacional{
+    text-align: center;
+}
+
+.paragrafo_informacional{
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+    font-weight: normal;
+}
+
+/* Historia */
+
+#secao_historia{
+    margin: 100px;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    padding-right: 20px;
+}
+
+#titulo_historia{
+    padding-top: 25px;
+    font-size: 30px;
+}
+#paragrafo_historia{
+    
+    font-weight: normal;
+    text-align: justify;
+    padding-top: 25px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+img{
+    width: 450px;
+    height: 550px;
+}
+
+/* Formulario */
+
+
+#secao_formulario{
+    display: grid;
+    text-align: center;
+    background-color: #303030;
+
+
+}
+
+
+#titulo_forms{
+    font-size: 25px;
+    margin: 25px;
+    color: #ffffff;
+}
+
+input{
+    margin: 15px;
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+button{
+    font-family: 'Raleway';
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: #C07212;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: #ffe70c;
+    transform: translatey(-5px);
+    box-shadow: 10px 10px 10px #303030;
+}
+
+/* dialog{
+    margin: 10px;
+    width: 400px;
+    height: 80px;
+    background-color: rgb(4, 247, 4);
+    border-radius: 10px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn_diolog{
+    background-color: #ffffff;
+    color: black;
+    width: 30px;
+    height: 20px;
+    font-size: 10px;
+} */
